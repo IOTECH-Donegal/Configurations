@@ -1,0 +1,18 @@
+#!/bin/bash
+# by: JOR
+# Date: 08APR20
+# Function: each login, save the kplex logfile with a filename created by a time/date stamp
+# Leave this script in /home/pi
+# Script: logfile_save.sh
+
+DIRECTORYNAME=`date '+%Y%m%d'`
+FILENAME=`date '+%H%M'`
+HOMEPATH="/home/pi"
+
+echo "Creating directory "$DIRECTORYNAME
+echo "Saving configuration as "$FILENAME
+
+mkdir $HOMEPATH/$DIRECTORYNAME
+cp $HOMEPATH/survey.log $HOMEPATH/$DIRECTORYNAME/$HOSTNAME-$FILENAME
+cat /dev/null > $HOMEPATH/survey.log
+

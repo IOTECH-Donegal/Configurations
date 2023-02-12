@@ -16,3 +16,5 @@ This style of GNSS device has been tested in poor signal areas, without a good v
 The system is capable of RTK accuracy (c. 1cm), but this does not need to be implemented for this application. Every second, navigational values are logged (UTC, LAT, LONG, SOG, COG) combined with a strain value. These values are also forwarded and logged to a cloud store (AWS) for redundancy. 
 This data is post-processed to conform to the presentation style agreed with EPA in 2020.
 
+Startup is via Linux shell scripts, code is written in Python 3.10. Code and scripts are documented in this repo.
+

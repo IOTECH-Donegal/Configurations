@@ -9,7 +9,7 @@ During post-processing, these will be translated into digital values (load/no lo
 This system is based on:
 -	LMS Strain Gauge
 -	LMS digital display with RS232 interface
-- A single board computer (SBC) used for logging 
+- A single board computer (SBC) running Raspbian GNU/Linux 11 (bullseye)
 - A GNSS with integrated IMU and AIS receiver (Moitessier v1). 
 
 Every second, navigational values are logged (UTC, LAT, LONG, SOG, COG) combined with a strain value. These values are also forwarded and logged to a cloud store (AWS) for redundancy. This data is post-processed to conform to the presentation style agreed with EPA in 2020.

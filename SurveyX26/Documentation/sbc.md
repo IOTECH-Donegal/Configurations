@@ -11,6 +11,6 @@ A Moitessier v1 board is used for GNSS and AIS logging.
 6. System is shutdown and powered off.
 7. A WittyPi3 board is added and the system is powered via this board.
 8. Drivers are added using
-```Shell
+```shell
 sudo apt update
 ```

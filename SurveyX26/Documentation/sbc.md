@@ -6,11 +6,16 @@ A Moitessier v1 board is used for GNSS and AIS logging.
 1. A USB key is burned with latest Raspbian32.
 2. The key is inserted to a USB port and the board booted.
 3. Ethernet cable connected.
-4. Device name set as Survey26.
-5. Standard username and password, see JOR for details.
-6. System is shutdown and powered off.
-7. A WittyPi3 board is added and the system is powered via this board.
-8. The system is rebooted, SSH and VNC are enabled.
+6. Device name set as Survey26.
+7. Standard username and password, see JOR for details.
+8. System is shutdown and powered off.
+9. A WittyPi3 board is added and the system is powered via this board.
+10. The system is rebooted
+11. Using Raspberry Pi Configuration GUI
+- SSH and VNC are enabled.
+- Serial port is enabled.
+- Serial console is disabled.
+
 
 ## WittyPi3v2 Configuration
 1. A CR2032 battery is added to the board.
